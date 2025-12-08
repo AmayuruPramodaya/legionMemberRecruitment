@@ -2,8 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Legion Club // Nanosuit OS',
-  description: 'University of Kelaniya - Tactical Gaming Collective',
+  title: 'CREATIVE FORCE',
+  description: 'University of Kelaniya',
 }
 
 export default function RootLayout({

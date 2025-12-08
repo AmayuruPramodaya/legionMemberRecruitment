@@ -163,14 +163,14 @@ export default function Dashboard() {
               </p>
             </div>
 
-            <button className="btn-primary w-full panel p-4 text-cyan-400 font-bold tracking-wider hover:bg-cyan-400/10 transition-all corner-deco group">
+            <Link href="/registration" className="btn-primary w-full panel p-4 text-cyan-400 font-bold tracking-wider hover:bg-cyan-400/10 transition-all corner-deco group block">
               <span className="flex items-center justify-center">
                 REGISTER NOW
                 <svg className="w-5 h-5 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </span>
-            </button>
+            </Link>
 
             <div className="grid grid-cols-2 gap-4 mt-6">
               <div className="panel p-4 text-center corner-deco">
