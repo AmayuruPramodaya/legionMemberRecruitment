@@ -470,7 +470,7 @@ export default function RegistrationPage() {
 
                 <div className="group relative">
                   <label className="block text-cyan-400 text-[10px] md:text-xs font-orbitron tracking-widest mb-2 pl-2 uppercase">
-                    Gaming Platforms You Use *
+                    Gaming Platforms You Use
                   </label>
                   <div className="space-y-2 bg-black/40 p-3 border-l-4 border-cyan-700">
                     {['PC', 'Mobile'].map(platform => (
