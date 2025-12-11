@@ -218,7 +218,7 @@ export default function Dashboard() {
                       src={project.image}
                       alt={project.name}
                       fill
-                      className="object-cover w-full h-full"
+                      className="object-cover w-full h-full group-hover:scale-101 transition-transform"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                     />
                     <div className="absolute inset-0 bg-linear-to-r from-cyan-400/20 via-purple-500/10 to-transparent" />
@@ -266,7 +266,7 @@ export default function Dashboard() {
           onClick={() => setSelectedProject(null)}
         >
           <div
-            className="panel max-w-4xl w-full max-h-[90vh] overflow-y-auto corner-deco relative"
+            className="panel max-w-4xl md:max-w-2xl w-full max-h-[90vh] overflow-y-auto corner-deco relative"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Close button */}
@@ -284,7 +284,7 @@ export default function Dashboard() {
                 alt={selectedProject.name}
                 width={1920}
                 height={1080}
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-linear-to-br from-cyan-400/30 via-purple-500/20 to-transparent" />
               <div className="grid absolute top-4 left-4 gap-2 z-10">
